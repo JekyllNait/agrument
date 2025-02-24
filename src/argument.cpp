@@ -123,6 +123,10 @@ bool Arguments::has(Argument const &argument) const {
   return false;
 }
 
+std::vector<Argument> const &Arguments::arguments() const {
+  return mArguments;
+}
+
 std::string Arguments::info() {
   std::string result;
   result += "\n";

@@ -35,6 +35,8 @@ public:
   bool has(std::string const &) const;
   bool has(Argument const &) const;
 
+  std::vector<Argument> const &arguments() const;
+
   std::string info();
 
 private:
