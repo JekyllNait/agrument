@@ -7,3 +7,5 @@ subdir('src')
 
 argument_shared_dep = declare_dependency(include_directories : inc,
   link_with : shared_lib)
+argument_static_dep = declare_dependency(include_directories : inc,
+  link_with : static_lib)
